@@ -1,8 +1,8 @@
-package main
+package exercises
 
 import "fmt"
 
-func main() {
+func Hello() {
 	var greeting string = "Hola a todos"
 	name := "Ronaldo Jiménez Acosta"
 	age := 25

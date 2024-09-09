@@ -1,9 +1,9 @@
 // ejemplo de entrada de datos - Scan y Scanf
-package main
+package exercises
 
 import "fmt"
 
-func main() {
+func Input() {
 
 	// Scanf - permite especificar el formato de entrada con mas detalle, en este caso se espera que el usuario ingrese la hora en formato HH:MM:SS
 	var hour, minute, second int

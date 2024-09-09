@@ -1,8 +1,8 @@
-package main
+package exercises
 
 import "fmt"
 
-func main() {
+func PrimeNumbers() {
 	// declarar variables
 	fmt.Println("Ingrese el número de limitación (máximo que queremos evaluar):")
 	var limit int

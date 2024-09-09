@@ -1,9 +1,9 @@
 // operaciones aritmeticas basicas
-package main
+package exercises
 
 import "fmt"
 
-func main() {
+func Calc() {
 
 	num1 := 5
 	num2 := 8
