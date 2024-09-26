@@ -19,4 +19,23 @@ func Pointers() {
 	*guardia = 200
 
 	fmt.Println("Ahora hay", dinero, "euros en la caja fuerte.")
+	fmt.Println("")
+
+	// otro ejemplo
+	fmt.Println("Ejemplo de comparación de direcciones de memoria")
+	i := 0
+	x := 0
+
+	y := &i
+	z := &x
+
+	if y == z {
+
+		fmt.Println("son iguales, tienen el mismo valor")
+
+	} else {
+
+		fmt.Println("son diferentes, apuntan a diferente dirección de memoria")
+
+	}
 }
