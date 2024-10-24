@@ -11,7 +11,5 @@ func main() {
 	exercises.Nombre = "Ronaldo Jiménez"
 	fmt.Println(exercises.Nombre)
 
-	// convertir número a texto
-	estado, texto := exercises.ConvertirNumeroTexto(105)
-	fmt.Println(estado, texto)
+	exercises.Football()
 }
