@@ -2,6 +2,7 @@ package exercises
 
 import (
 	"fmt"
+	"strconv"
 	"time"
 )
 
@@ -24,4 +25,10 @@ func Vars() {
 	fmt.Println(Estado)
 	fmt.Println(Sueldo)
 	fmt.Println(Fecha)
+}
+
+func ConvertirNumeroTexto(numero int) (bool, string) {
+	// convertir número a texto
+	texto := strconv.Itoa(numero)
+	return true, texto
 }
