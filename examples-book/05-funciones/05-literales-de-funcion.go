@@ -12,7 +12,7 @@ func Multiplica(a, b int) int {
 
 func main() {
 	var operador func(int, int) int
-	operador = Suma
+	operador = Suma // lamddas o closures = literales de funciones
 	fmt.Println("suma =", operador(3, 4))
 	operador = Multiplica
 	fmt.Println("multiplica =", operador(3, 4))
