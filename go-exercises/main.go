@@ -11,5 +11,5 @@ func main() {
 	exercises.Nombre = "Ronaldo Jiménez"
 	fmt.Println(exercises.Nombre)
 
-	exercises.RetornarMultiplesValores()
+	exercises.Keyboard()
 }

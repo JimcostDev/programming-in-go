@@ -17,8 +17,8 @@ func verificarMayorA100(s string) (bool, int, error) {
 	return esMayor, num, nil
 }
 
-func RetornarMultiplesValores() {
-	resultado, numero, err := verificarMayorA100("150")
+func RetornarMultiplesValores(s string) {
+	resultado, numero, err := verificarMayorA100(s)
 	if err != nil {
 		fmt.Println("Error:", err)
 		return
