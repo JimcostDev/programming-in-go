@@ -25,7 +25,7 @@ func Iterar() {
 
 	// ciclo for para imprimir la tabla de multiplicar
 	for i := 1; i <= 10; i++ {
-		fmt.Println(number, "x", i, "=", number*i)
+		fmt.Printf("%d X %d = %d\n", number, i, number*i)
 	}
 
 }
