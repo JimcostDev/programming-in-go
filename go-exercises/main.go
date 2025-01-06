@@ -11,5 +11,5 @@ func main() {
 	exercises.Nombre = "Ronaldo Jiménez" // Nombre se toma de vars.go
 	fmt.Println(exercises.Nombre)
 
-	exercises.Iterar()
+	exercises.Goldbach()
 }
