@@ -16,17 +16,16 @@ func Iterar() {
 			number, err = strconv.Atoi(scanner.Text()) // utilizamos las variables declaradas en keyboard.go
 			if err != nil {
 				fmt.Println("Error al convertir el número: ", err)
-				continue
+				continue // si hay un error, se vuelve a pedir el número
+			} else {
+				break // si no hay error, se sale del ciclo
 			}
-			// Si llegamos aquí, el número es válido, así que imprimimos la tabla
-			for i := 1; i <= 10; i++ {
-				fmt.Printf("%d x %d = %d\n", number, i, number*i)
-			}
-			break // Salimos del bucle principal
-		} else {
-			fmt.Println("Error al leer el número: ", scanner.Err())
-			break
 		}
+	}
+
+	// ciclo for para imprimir la tabla de multiplicar
+	for i := 1; i <= 10; i++ {
+		fmt.Println(number, "x", i, "=", number*i)
 	}
 
 }
