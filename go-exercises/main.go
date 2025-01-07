@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/JimcostDev/programming-in-go/go-exercises/exercises"
+	"github.com/JimcostDev/programming-in-go/go-exercises/files"
 )
 
 func main() {
@@ -11,5 +12,9 @@ func main() {
 	exercises.Nombre = "Ronaldo Jiménez" // Nombre se toma de vars.go
 	fmt.Println(exercises.Nombre)
 
-	exercises.Goldbach()
+	// tabla := exercises.Iterar()
+	// fmt.Println(tabla)
+
+	files.ReadFile()
+	exercises.Pointers()
 }

@@ -29,6 +29,8 @@ func Pointers() {
 	y := &i
 	z := &x
 
+	fmt.Println("La dirección de memoria de i es: ", y)
+	fmt.Println("La dirección de memoria de x es: ", z)
 	if y == z {
 
 		fmt.Println("son iguales, tienen el mismo valor")

@@ -7,7 +7,9 @@ import (
 	"strconv"
 )
 
-func Iterar() {
+var texto string
+
+func Iterar() string {
 	// tabla de multiplicar del 1 al 10 de un número ingresado por el usuario
 	scanner := bufio.NewScanner(os.Stdin)
 	for {
@@ -25,7 +27,7 @@ func Iterar() {
 
 	// ciclo for para imprimir la tabla de multiplicar
 	for i := 1; i <= 10; i++ {
-		fmt.Printf("%d X %d = %d\n", number, i, number*i)
+		texto += fmt.Sprintf("%d X %d = %d\n", number, i, number*i)
 	}
-
+	return texto
 }
