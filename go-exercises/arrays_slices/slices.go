@@ -16,7 +16,9 @@ func Equipos() {
 	equipos[4] = "Barcelona ❤️💙"
 
 	// Imprimir los slices
-	fmt.Println("Equipos:", equipos)
+	for _, equipo := range equipos {
+		fmt.Println(equipo)
+	}
 	fmt.Println("Favoritos:", favoritos)
 
 	// Ver longitud y capacidad del slice

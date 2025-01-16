@@ -11,6 +11,8 @@ func Teams() {
 	// [...] indica que el tamaño del array es fijo, pero se deduce automáticamente a partir de los elementos proporcionados en la inicialización.
 	teams := [...]string{"Deportivo Cali 💚", "Liverpool ❤️", "Real Madrid 🤍"}
 
+	// teams = append(teams, "River Plate 🤍❤️", "Chelsea 💙") // no se puede hacer, su tamaño es fijo
+
 	// fmt.Println(teams)
 	for _, team := range teams {
 		fmt.Println(team)
