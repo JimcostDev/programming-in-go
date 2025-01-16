@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/JimcostDev/programming-in-go/go-exercises/arrays_slices"
 	"github.com/JimcostDev/programming-in-go/go-exercises/exercises"
 	//"github.com/JimcostDev/programming-in-go/go-exercises/files"
 )
@@ -20,5 +21,5 @@ func main() {
 	// fmt.Println(tabla)
 
 	//files.ReadFile()
-	exercises.Clouseres()
+	arrays_slices.Equipos()
 }
