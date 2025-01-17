@@ -21,5 +21,5 @@ func main() {
 	// fmt.Println(tabla)
 
 	//files.ReadFile()
-	arrays_slices.Equipos()
+	arrays_slices.Maps()
 }
