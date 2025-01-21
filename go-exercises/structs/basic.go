@@ -23,6 +23,8 @@ func Basic() {
 	// Acceder y modificar campos
 	fmt.Println("Equipo 1:", equipo1)
 	fmt.Println("Nombre del Equipo 2:", equipo2.Nombre)
+	fmt.Println("Color del Equipo 2:", equipo2.Color)
+	fmt.Println("Títulos del Equipo 2:", equipo2.Titulos)
 
 	// Modificar un campo
 	equipo1.Titulos = 11
