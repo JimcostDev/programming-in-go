@@ -16,8 +16,13 @@ func Interfaces() {
 	// Crear jugadores
 	portero := models.Portero{Nombre: "Jan Oblak"}
 	delantero := models.Delantero{Nombre: "Robert Lewandowski", Goles: 28}
+	enganche := models.Enganche{
+		Delantero:   models.Delantero{Nombre: "James Rodríguez", Goles: 15},
+		Asistencias: 12,
+	}
 
 	// Usar la interfaz en un partido
 	partido(portero)
 	partido(delantero)
+	partido(enganche)
 }
