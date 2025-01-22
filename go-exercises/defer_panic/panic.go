@@ -1,6 +1,9 @@
 package defer_panic
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 func dividir(a, b int) int {
 	if b == 0 {
@@ -12,7 +15,7 @@ func dividir(a, b int) int {
 func Panic() {
 	defer func() {
 		if r := recover(); r != nil {
-			fmt.Println("Error recuperado:", r) // se muestra el error al final
+			log.Fatalf("Error recuperado: %v", r) // se muestra el error al final
 		}
 	}()
 

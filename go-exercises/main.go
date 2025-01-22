@@ -24,5 +24,5 @@ func main() {
 
 	//files.ReadFile()
 	structs.Interfaces()
-	defer_panic.Error()
+	defer_panic.Panic()
 }
