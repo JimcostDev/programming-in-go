@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	_ "github.com/JimcostDev/programming-in-go/go-exercises/arrays_slices"
-	"github.com/JimcostDev/programming-in-go/go-exercises/defer_panic"
+	_ "github.com/JimcostDev/programming-in-go/go-exercises/defer_panic"
 	"github.com/JimcostDev/programming-in-go/go-exercises/exercises"
-	"github.com/JimcostDev/programming-in-go/go-exercises/structs"
+	_ "github.com/JimcostDev/programming-in-go/go-exercises/structs"
 	//"github.com/JimcostDev/programming-in-go/go-exercises/files"
 )
 
@@ -18,11 +18,14 @@ func main() {
 		return "Hola " + name
 	}
 	fmt.Println(saludar(exercises.Nombre))
+	type edad uint8 // 0 a 255
+	var edadRonaldo edad = 25
+	fmt.Printf("La edad de %s es %d\n", exercises.Nombre, edadRonaldo)
 
 	// tabla := exercises.Iterar()
 	// fmt.Println(tabla)
 
 	//files.ReadFile()
-	structs.Interfaces()
-	defer_panic.Panic()
+	exercises.StrBuilder()
+
 }
