@@ -3,11 +3,8 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/JimcostDev/programming-in-go/jimcostdev/arrays_slices"
-	_ "github.com/JimcostDev/programming-in-go/jimcostdev/defer_panic"
+	"github.com/JimcostDev/programming-in-go/jimcostdev/concurrency"
 	"github.com/JimcostDev/programming-in-go/jimcostdev/exercises"
-	"github.com/JimcostDev/programming-in-go/jimcostdev/structs"
-	//"github.com/JimcostDev/programming-in-go/jimcostdev/files"
 )
 
 func main() {
@@ -22,10 +19,9 @@ func main() {
 	var edadRonaldo edad = 25
 	fmt.Printf("La edad de %s es %d\n", exercises.Nombre, edadRonaldo)
 
-	// tabla := exercises.Iterar()
-	// fmt.Println(tabla)
-
-	//files.ReadFile()
-	structs.Basic()
-	exercises.Pointers()
+	// llamada a la función que se desea probar
+	go concurrency.Goroutines(exercises.Nombre) // se ejecuta de manera concurrente (async)
+	fmt.Println("\n Escribe algo para finalizar la ejecución:")
+	var x string
+	fmt.Scanln(&x) // espera a que se presione enter para terminar el programa
 }
