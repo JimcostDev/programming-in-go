@@ -1,7 +1,7 @@
 package structs
 
 import (
-	"github.com/JimcostDev/programming-in-go/go-exercises/models"
+	"github.com/JimcostDev/programming-in-go/jimcostdev/models"
 )
 
 func Team() {

@@ -1,6 +1,6 @@
 package structs
 
-import "github.com/JimcostDev/programming-in-go/go-exercises/models"
+import "github.com/JimcostDev/programming-in-go/jimcostdev/models"
 
 // Definir la interfaz
 type Jugador interface {

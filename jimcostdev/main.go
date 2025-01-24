@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/JimcostDev/programming-in-go/go-exercises/arrays_slices"
-	_ "github.com/JimcostDev/programming-in-go/go-exercises/defer_panic"
-	"github.com/JimcostDev/programming-in-go/go-exercises/exercises"
-	"github.com/JimcostDev/programming-in-go/go-exercises/structs"
-	//"github.com/JimcostDev/programming-in-go/go-exercises/files"
+	_ "github.com/JimcostDev/programming-in-go/jimcostdev/arrays_slices"
+	_ "github.com/JimcostDev/programming-in-go/jimcostdev/defer_panic"
+	"github.com/JimcostDev/programming-in-go/jimcostdev/exercises"
+	"github.com/JimcostDev/programming-in-go/jimcostdev/structs"
+	//"github.com/JimcostDev/programming-in-go/jimcostdev/files"
 )
 
 func main() {

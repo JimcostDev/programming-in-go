@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/JimcostDev/programming-in-go/go-exercises/exercises"
+	"github.com/JimcostDev/programming-in-go/jimcostdev/exercises"
 )
 
 var filename string = "./files/txt/tabla.txt"
