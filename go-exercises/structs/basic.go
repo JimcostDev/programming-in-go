@@ -34,4 +34,10 @@ func Basic() {
 	equipo3 := &Equipo{"Real Madrid", "Blanco 🤍", 35}
 	equipo3.Titulos++
 	fmt.Println("Equipo 3 (con puntero):", *equipo3)
+
+	equipo4 := Equipo{"Barcelona", "Azulgrana", 26}
+	fmt.Printf("Equipo 4: %v\n", equipo4)
+	fmt.Printf("Equipo 4: %+v\n", equipo4)
+	fmt.Printf("Equipo 4: %#v\n", equipo4)
+
 }

@@ -40,4 +40,16 @@ func Pointers() {
 		fmt.Println("son diferentes, apuntan a diferente dirección de memoria")
 
 	}
+
+	fmt.Println("\n Otro Ejemplo:")
+	variable := 10
+	puntero := &variable
+
+	fmt.Printf("El valor de la variable es: %v\n", variable)
+	fmt.Printf("La dirección de memoria de la variable es: %v\n", &variable)
+	fmt.Printf("El valor del puntero es: %v\n", *puntero)
+
+	// Cambiando el valor de la variable a través del puntero
+	*puntero = 20
+	fmt.Printf("El valor de la variable es: %v\n", variable)
 }
