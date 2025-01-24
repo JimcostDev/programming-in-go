@@ -20,8 +20,5 @@ func main() {
 	fmt.Printf("La edad de %s es %d\n", exercises.Nombre, edadRonaldo)
 
 	// llamada a la función que se desea probar
-	go concurrency.Goroutines(exercises.Nombre) // se ejecuta de manera concurrente (async)
-	fmt.Println("\n Escribe algo para finalizar la ejecución:")
-	var x string
-	fmt.Scanln(&x) // espera a que se presione enter para terminar el programa
+	concurrency.Channels()
 }

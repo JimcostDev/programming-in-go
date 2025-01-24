@@ -2,18 +2,24 @@ package concurrency
 
 import (
 	"fmt"
-	"strings"
 	"time"
 )
 
-// Goroutines : Función que muestra el uso de goroutines
-func Goroutines(name string) {
-	// goroutine es una función que se ejecuta de manera concurrente con otras funciones
-	// la palabra clave go permite ejecutar una función como goroutine
-	letters := strings.Split(name, "")
-	for _, letter := range letters {
-		// mostar cada 1s una letra de la palabra
-		time.Sleep(500 * time.Millisecond)
-		fmt.Println(letter)
+// Esta función simula una tarea que toma tiempo
+func hacerAlgo() {
+	for i := 1; i <= 5; i++ {
+		time.Sleep(1 * time.Second) // Simulamos que tarda 1 segundo en hacer algo
+		fmt.Println("Tarea #", i)
 	}
+}
+
+func Goroutines() {
+	// Iniciamos la goroutine para ejecutar la función de manera concurrente
+	go hacerAlgo()
+
+	// Aquí, el programa principal sigue ejecutándose sin esperar a que termine la goroutine
+	fmt.Println("El programa principal sigue ejecutándose...")
+	// Esperamos un momento para ver los resultados de la goroutine
+	time.Sleep(8 * time.Second)
+	fmt.Println("Fin del programa.")
 }
