@@ -5,7 +5,7 @@ Materiales complementarios al libro "Programación en Go", de la Editorial Marco
 Autor: [Mario Macías Lloret](http://macias.info).
 
 * [Ejemplos de código del libro](./examples-book)
-* [Notas Personales](./go-exercises/)
+* [Notas personales](./jimcostdev/)
 
 ![](./imgs/golang.jpg)
 
