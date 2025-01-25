@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/JimcostDev/programming-in-go/jimcostdev/concurrency"
+	_ "github.com/JimcostDev/programming-in-go/jimcostdev/concurrency"
 	"github.com/JimcostDev/programming-in-go/jimcostdev/exercises"
 )
 
@@ -20,5 +20,5 @@ func main() {
 	fmt.Printf("La edad de %s es %d\n", exercises.Nombre, edadRonaldo)
 
 	// llamada a la función que se desea probar
-	concurrency.Channels()
+	exercises.IMC()
 }
