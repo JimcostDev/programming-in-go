@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/JimcostDev/programming-in-go/jimcostdev/exercises"
-	"github.com/JimcostDev/programming-in-go/jimcostdev/middleware"
+	_ "github.com/JimcostDev/programming-in-go/jimcostdev/middleware"
 )
 
 func main() {
@@ -20,5 +20,5 @@ func main() {
 	fmt.Printf("La edad de %s es %d\n", exercises.Nombre, edadRonaldo)
 
 	// llamada a la función que se desea probar
-	middleware.MyMiddleware()
+	exercises.Tournament()
 }

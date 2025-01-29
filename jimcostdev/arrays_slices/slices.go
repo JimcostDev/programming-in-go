@@ -27,4 +27,18 @@ func Equipos() {
 
 	// ver tipo de 'equipos'
 	fmt.Printf("Tipo: %T\n", equipos) // al tener un tamaño dinámico, lo identifica como un slice
+
+	// uso de ... para desempaquetar
+	// Definimos dos slices
+	numeros1 := []int{1, 2, 3}
+	numeros2 := []int{4, 5, 6}
+
+	// Usamos `append` con `...` para combinar ambos slices
+	resultado := append(numeros1, numeros2...)
+	// ... expande los elementos del slice resultante como
+	// argumentos individuales para la función append, Esto es necesario porque append
+	// espera una lista de elementos, no otro slice.
+
+	// Mostramos el resultado
+	fmt.Println(resultado) // Salida: [1 2 3 4 5 6]
 }
