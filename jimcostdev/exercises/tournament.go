@@ -10,13 +10,7 @@ import (
 	"fmt"
 )
 
-var participantes = []string{"Cali", "America", "Nacional", "Millonarios", "Medelllin"}
-
-func Tournament() {
-	for _, v := range sorteo(participantes) {
-		fmt.Println(v)
-	}
-}
+var participantes = []string{"Cali", "America", "Nacional", "Millonarios", "Medelllin", "Santa Fe"}
 
 func sorteo(equipos []string) [][]string {
 	if len(equipos)%2 != 0 {
@@ -43,4 +37,15 @@ func sorteo(equipos []string) [][]string {
 	}
 
 	return fixture
+}
+
+func Tournament() {
+	juegos := sorteo(participantes) // devuelve [][]string
+	for i, juego := range juegos {
+		fmt.Printf("==== Jornada %d ====\n", i+1)
+		for j := 0; j < len(juego); j += 2 { // formar paraejas de partidos
+			fmt.Printf("Partido %d: %s vs %s\n", j/2+1, juego[j], juego[j+1])
+		}
+		fmt.Println()
+	}
 }
