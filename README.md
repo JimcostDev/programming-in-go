@@ -1,15 +1,23 @@
-# Programación en Go
+# 📘 Programación en Go  
 
-Materiales complementarios al libro "Programación en Go", de la Editorial Marcombo y mis apuntes personales.
+Material complementario al libro **"Programación en Go"** de la Editorial Marcombo, junto con mis apuntes personales y recursos adicionales.  
 
-Autor: [Mario Macías Lloret](http://macias.info).
+📖 **Autor del libro:** [Mario Macías Lloret](http://macias.info)  
 
-* [Ejemplos de código del libro](./examples-book)
-* [Notas personales](./jimcostdev/)
+## 📂 Contenido del repositorio  
 
-![](./imgs/golang.jpg)
+✅ **Ejemplos del libro:** [examples-book/](./examples-book)  
+✅ **Mis apuntes y recursos:** [jimcostdev/](./jimcostdev/)  
+✅ **Guía de instalación:** [guia_instalacion_go.md](./guia_instalacion_go.md)  
 
-> !Si te resulta útil este proyecto, apóyalo con una ⭐! Tu apoyo nos motiva a crear más contenido y mejorar los recursos disponibles. ¡Gracias! :octocat:
+![img-go](./imgs/golang.jpg)
+
+## 🚀 Apóyanos con una ⭐  
+
+Si este repositorio te resulta útil, ¡apóyalo con una estrella ⭐!  
+Tu apoyo nos motiva a seguir creando más contenido y mejorar los recursos disponibles. ¡Gracias! 😊  
+
+---
 
 ## Howdy, soy Ronaldo Jiménez 👋🏻
 ### Software Engineer & Web Developer :octocat:
