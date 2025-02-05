@@ -21,4 +21,5 @@ func main() {
 
 	// llamada a la función que se desea probar
 	concurrency.Mutex()
+	exercises.Reflection()
 }
