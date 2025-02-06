@@ -3,7 +3,7 @@
 Los **canales** en Go permiten la comunicación segura entre **Goroutines**, evitando condiciones de carrera sin necesidad de sincronización manual con `sync.Mutex` o `sync.WaitGroup`.
 
 ## 📌 Conceptos Claves
-✅ Se crean con `make(chan tipo)`, no con `var`, porque son estructuras dinámicas de memoria.  
+✅ Se crean con `make(chan tipo)`, no con `var`, porque son estructuras dinámicas de memoria. Un canal declarado con `var` tendría valor `nil` y no se podría usar  
 ✅ Se usa `<-` para **enviar** y **recibir** datos a través del canal.  
 ✅ Son **bloqueantes** por defecto: la Goroutine que **envía** espera a que alguien **reciba**, y viceversa.  
 
