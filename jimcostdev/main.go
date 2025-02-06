@@ -20,6 +20,6 @@ func main() {
 	fmt.Printf("La edad de %s es %d\n", exercises.Nombre, edadRonaldo)
 
 	// llamada a la función que se desea probar
-	concurrency.Mutex()
-	exercises.Reflection()
+	concurrency.BasicExampleGoroutines()
+
 }
