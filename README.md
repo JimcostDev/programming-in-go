@@ -10,7 +10,7 @@ Material complementario al libro **"Programación en Go"** de la Editorial Marco
 ✅ **Mis apuntes y recursos:** [jimcostdev/](./jimcostdev/)  
 ✅ **Guía de instalación:** [guia_instalacion_go.md](./guia_instalacion_go.md)  
 
-![img-go](./imgs/golang.jpg)
+![img-go](./imgs/golang.webp)
 
 ## 🚀 Apóyanos con una ⭐  
 
