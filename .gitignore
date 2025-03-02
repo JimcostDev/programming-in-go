@@ -1,15 +1,21 @@
-# Binaries para programas y plugins
+# Binarios para programas y plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# Binario de test generado con `go test -c`
+# Binarios de tests y salida de compilación
 *.test
-
-# Salida de la herramienta de cobertura de Go, en particular al usar LiteIDE
 *.out
 
-# Directorios de dependencias (descomenta si no deseas incluir el directorio vendor)
-# vendor/
+# Directorio de dependencias (si usas vendor)
+vendor/
+
+# Archivos de configuración de editores/IDEs
+.vscode/
+.idea/
+
+# Archivos temporales o de logs
+*.log
+*.tmp
